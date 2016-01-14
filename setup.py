@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # Change docs/source/conf.py too!
-VERSION = '1.1'
+VERSION = '2.0'
 
 from setuptools import setup, find_packages
 
@@ -159,14 +159,10 @@ setup(
 
     entry_points={
         'cliff.formatter.list': [
-            'yaml = clifftablib.formatters:YamlFormatter',
             'html = clifftablib.formatters:HtmlFormatter',
-            'json = clifftablib.formatters:JsonFormatter',
             ],
         'cliff.formatter.show': [
-            'yaml = clifftablib.formatters:YamlFormatter',
             'html = clifftablib.formatters:HtmlFormatter',
-            'json = clifftablib.formatters:JsonFormatter',
             ],
         },
 

@@ -28,22 +28,8 @@ class TablibFormatterBase(ListFormatter, SingleFormatter):
         return
 
 
-class YamlFormatter(TablibFormatterBase):
-    """YAML output"""
-
-    def _format_dataset(self, dataset):
-        return dataset.yaml
-
-
 class HtmlFormatter(TablibFormatterBase):
     """HTML output"""
 
     def _format_dataset(self, dataset):
         return dataset.html
-
-
-class JsonFormatter(TablibFormatterBase):
-    """JSON output"""
-
-    def _format_dataset(self, dataset):
-        return dataset.json
