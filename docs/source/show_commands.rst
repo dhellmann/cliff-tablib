@@ -32,32 +32,4 @@ The ``html`` formatter uses tablib_ to produce HTML output as a table.
     <td>1336353173.0</td></tr>
     </table>
 
-json
-----
-
-The ``json`` formatter uses tablib_ to produce JSON output.
-
-::
-
-    (.venv)$ cliffdemo file -f json setup.py
-    [{"Field": "Name", "Value": "setup.py"}, {"Field": "Size",
-    "Value": 6373}, {"Field": "UID", "Value": 527}, {"Field": "GID",
-    "Value": 501}, {"Field": "Modified Time", "Value": 1336353173.0}]
-
-yaml
-----
-
-The ``yaml`` formatter uses tablib_ to produce YAML output as a
-sequence of mappings.
-
-::
-
-    (.venv)$ cliffdemo file -f yaml setup.py
-    - {Field: Name, Value: setup.py}
-    - {Field: Size, Value: 6373}
-    - {Field: UID, Value: 527}
-    - {Field: GID, Value: 501}
-    - {Field: Modified Time, Value: 1336353173.0}
-
-
 .. _tablib: https://github.com/kennethreitz/tablib

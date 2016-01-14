@@ -4,10 +4,10 @@
 
 .. image:: https://secure.travis-ci.org/dhellmann/cliff.png?branch=master
 
-cliff-tablib is a set of formatter extensions for producing JSON,
-YAML, and HTML output in programs created with the cliff
-framework. Installing cliff-tablib activates these formatters for any
-cliff-based programs automatically.
+cliff-tablib is a set of formatter extensions for producing HTML
+output in programs created with the cliff framework. Installing
+cliff-tablib activates these formatters for any cliff-based programs
+automatically.
 
 Documentation
 =============

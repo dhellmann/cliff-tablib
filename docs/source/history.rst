@@ -2,6 +2,11 @@
  Release History
 =================
 
+2.0
+
+  - Remove JSON and YAML formatters, since they duplicate code
+    provided natively by cliff.
+
 1.1
 
   - Remove the use of distribute for installation.
